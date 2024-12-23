@@ -12,7 +12,7 @@ const CardContainer = styled.div`
 `;
 
 const Card = styled.div`
-  background: #f9f9f9;
+  background:  #2c3e50;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -34,7 +34,7 @@ const Card = styled.div`
 const CardHeader = styled.h3`
   font-size: 1.5rem;
   font-weight: 600;
-  color: #333;
+  color: #fff;
   margin-bottom: 10px;
 `;
 
@@ -45,6 +45,7 @@ const CardBody = styled.div`
   width: 100%;
   margin-bottom: 10px;
 `;
+
 
 const Input = styled.input`
   padding: 8px 12px;
